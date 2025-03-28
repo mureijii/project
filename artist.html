@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Login</title>
+    <link rel="stylesheet" href="./artist.css">
+</head>
+<body>
+
+    <nav>
+        <h1>Artist Login</h1>
+        <a href="./index.html">Home</a>
+        <a href="./playlist.html">Playlists</a>
+        <a href="./login.html">Login</a>
+        <a href="./signup.html">Register</a>
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="./artist.html">Artist login</a>
+        <a href="./album.html">Albums</a>
+    </nav>
+
+    <main>
+        <div class="login-container">
+            <h2>Login as Artist</h2>
+            <form id="artist-login-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                
+                <button type="submit">Login</button>
+                <p id="error-message" class="error-message"></p>
+            </form>
+        </div>
+    </main>
+
+    <script src="./artist.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Dashboard</title>
+    <link rel="stylesheet" href="./dashboard.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h1>Artist Dashboard</h1>
+        <a href="./index.html">Home</a>
+        <a href="./playlist.html">Playlists</a>
+        <a href="./login.html">Login</a>
+        <a href="./signup.html">Register</a>
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="./artist.html">Artist login</a>
+        <a href="./album.html">Albums</a>
+    </nav>
+
+    <!-- Artist Profile -->
+    <section class="artist-profile">
+        <img src="default-avatar.png" alt="Artist Avatar" class="artist-avatar">
+        <h2 id="artist-name">Loading...</h2>
+        <p id="artist-bio">Fetching profile...</p>
+        <button id="edit-profile">Edit Profile</button>
+    </section>
+
+    <!-- Music Upload -->
+    <section class="upload-music">
+        <h2>Upload New Music</h2>
+        <input type="text" id="music-title" placeholder="Song Title">
+        <input type="text" id="music-url" placeholder="YouTube URL">
+        <button id="upload-music-btn">Upload</button>
+    </section>
+
+    <!-- Artist Songs -->
+    <section class="artist-songs">
+        <h2>Your Songs</h2>
+        <ul id="music-list">
+            <!-- Dynamically populated -->
+        </ul>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

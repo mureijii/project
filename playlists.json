@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Chill Vibes",
+      "createdBy": 2,
+      "collaborators": [3],
+      "songs": [101, 102, 103]
+    },
+    {
+      "id": 2,
+      "name": "Workout Hits",
+      "createdBy": 3,
+      "collaborators": [],
+      "songs": [104, 105, 106]
+    }
+  ]
+  

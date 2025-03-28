@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 10px 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.nav-links button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-links button:hover {
+    background: #444;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background: #333;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.sortable-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.music-item {
+    background: #444;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: grab;
+    transition: 0.3s;
+}
+
+.music-item:hover {
+    background: #555;
+}
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+#search {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px auto;
+    width: 50%;
+}
+
+li {
+    background: #1f1f1f;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+li:hover {
+    background: #333;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+/* Dark Theme Styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header & Transparent Navigation */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px 0;
+    backdrop-filter: blur(10px);
+    background: rgba(30, 30, 30, 0.6); /* Semi-transparent */
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.1);
+    z-index: 1000;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ff9800;
+}
+
+/* Main Content */
+main {
+    padding: 100px 20px 20px; /* Added top padding to avoid overlap with fixed header */
+}
+
+/* Input Fields */
+input, button {
+    padding: 12px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    background-color: #ff5722;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+/* Playlist List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #252525;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Form Styling */
+form {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+form input {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}
+.playlist {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.playlist h3 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.playlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.playlist button {
+    background: red;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <h1>🎵 My Music App</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./playlist.html">Playlists</a>
+            <a href="./login.html">Login</a>
+            <a href="./signup.html">Register</a>
+            <a href="./dashboard.html">Dashboard</a>
+            <a href="./artist.html">Artist login</a>
+            <a href="./album.html">Albums</a>
+        </nav>
+        <nav>
+            <h1>Music Search</h1>
+            <a href="playlist.html">Playlists</a>
+        </nav>
+    
+    </header>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Play App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search for songs, albums, artists">
+        </div>
+        <div class="profile">
+            <a href="./login.html">Login</a> | <a href="./signup.html">Sign Up</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="featured-artists">
+            <h2>Featured Artists</h2>
+            <div class="artist-container">
+                <div class="artist">
+                    <img src="./images/kenny.jpg" alt="Kendrick">
+                    <p>K-Dot</p>
+                </div>
+                <div class="artist">
+                    <img src="./images/cole pc.jpg" alt="Jcole">
+                    <p>J-Cole</p>
+                </div>
+            </div>
+        </section>
+        <section class="music-player">
+            <h2>Now Playing</h2>
+            <audio id="audio-player" controls>
+                <source id="audio-source" src="./music/j.cole-the_fall_off_mp3_44235.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="music-controls">
+                <button id="prev-song">⏮ Prev</button>
+                <button id="play-pause">▶ Play</button>
+                <button id="next-song">⏭ Next</button>
+            </div>
+        </section>
+    
+        <section class="recently-uploaded">
+            <h2>Recently Uploaded</h2>
+            <div class="music-container">
+                <div class="music">
+                    <img src="./images/falloff.jpg" alt="Song 1">
+                    <p>The falloff</p>
+                </div>
+                <div class="music">
+                    <img src="./images/ig5.jpg" alt="Heart part 6">
+                    <p>Heart part 6</p>
+                </div>
+            </div>
+        </section>
+        <main>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search for music...">
+                <button type="submit">Search</button>
+            </form>
+    
+            <div id="results"></div>
+            <div id="player-container"></div>
+        </main>
+        <div id="results"></div>
+        <div id="player-container"></div>
+        <div id="playlists-container"></div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Music Play App</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

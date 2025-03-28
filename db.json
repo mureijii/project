@@ -1,0 +1,40 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com"
+      }
+    ],
+    "songs": [
+      {
+        "id": 1,
+        "title": "Song Title",
+        "artist": "Artist Name",
+        "url": "https://example.com/song.mp3",
+        "likes": 10,
+        "downloads": 5
+      }
+    ],
+    "playlists": [
+      {
+        "id": 1,
+        "name": "My Playlist",
+        "songs": [1]
+      }
+    ],
+    "artists": [
+      {
+        "id": 1,
+        "name": "Artist Name",
+        "profile": "https://example.com/artist",
+        "followers": 100
+      }
+    ],
+    "admin": {
+      "id": 1,
+      "name": "Admin",
+      "permissions": ["update", "edit", "delete"]
+    }
+  }
+  
